@@ -10,7 +10,8 @@
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
-    "wait-on": "^2.1.0"
+    "wait-on": "^2.1.0",
+    "electron-squirrel-startup": "^1.0.0"
   },
   "main": "src/electron-starter.js",
   "repository": "https://github.com/zialdiansyah/electron-react",
@@ -23,6 +24,8 @@
   },
   "devDependencies": {
     "electron": "^2.0.8",
-    "electron-builder": "^20.28.3"
+    "electron-builder": "^20.28.3",
+    "electron-builder-squirrel-windows": "^19.16.0",
+    "electron-installer-squirrel-windows": "^1.3.0"
   }
 }
